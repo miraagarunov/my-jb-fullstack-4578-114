@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Bepholar;
+    src: url(font/bepholar/Bepholar.otf);
+}
+
+.font{
+    font-family: Bepholar;
+}
+
+
+h1{
+    text-align: center;
+} 
+
+
+nav{
+     text-align:center;
+}
+
+
+a{
+    margin: 20px 30px 20px 30px;
+}
+
+
+body{
+    background-color: rgb(206, 230, 255);
+    
+}
+
+
+body > main > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    padding: 10px;
+
+}
+
+body >main >div > div {
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+    border: 1px solid rgb(149, 198, 240);
+}
+
+footer{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: large;
+}
+
+#cat1 {
+    position: relative;
+    display: inline-block;
+}
+
+#cat2{
+    position: absolute;
+    display: inline;
+    float : right;
+}
+
+#cat3 {
+    position:fixed
+    display inline-block;
+    float:right; 
+}
+
+#chart {
+    grid-column: span 6;
+    
+
+}
+

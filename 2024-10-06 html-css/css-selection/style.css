@@ -1,0 +1,93 @@
+/*name selector*/
+html{
+    border: 1px solid palevioletred;
+}
+body{
+    border: 1px solid black;
+}
+h1 {
+    color:green;
+    background-color:yellow
+}
+
+p{ 
+    color:red
+}
+
+.cool-design {
+    color:rgb(128, 41, 0);
+    background-color:rgb(215, 58, 129)
+}
+
+p.cool-design{
+    text-decoration: underline;
+}
+.cool-design-big {
+font-size: xx-large;
+font-weight: bold;
+color:blue;
+}
+.cool-design-small{
+    font-size: xx-small;
+    font-weight: bold;
+    color:pink;
+}
+/*id selector*/
+
+#last-paragraph {
+    font-size: x-small;
+    text-decoration: underline;
+
+/*attribute selector*/
+
+}input[placeholder="first name"] {
+    background-color:yellow;
+}
+
+
+input[placeholder="first name"] {
+    background-color:yellow;
+    border :3px dashed;
+}
+    
+
+/*pseudo selector */
+
+a{
+    color:blueviolet;
+
+}
+a:hover{
+    color:brown;
+}
+
+a:visited {
+    color:rgb(182, 161, 226);
+}
+
+p::first-letter{
+    font-size: x-large;
+    color:rgb(174, 253, 253)
+    
+}
+span{
+    color:rgb(135, 22, 255);
+}
+/*combination of selectors*/
+p.cool-design {
+    text-decoration: underline;
+}
+/*both html and body tags will be applied whit t*/
+html,body{
+    margin:0;
+    padding:0;
+
+}
+/**/
+p a {
+    color:beige;
+}
+p > a {
+    border: 3px dashed gray;
+}
+

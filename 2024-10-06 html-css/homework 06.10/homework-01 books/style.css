@@ -1,0 +1,20 @@
+.centered-text {
+    text-align: center;
+}
+
+.cool-design {
+    color: rgb(81, 35, 104);
+}
+.cool-design-line{
+    text-decoration: underline;
+}
+.cool-design-big {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(151, 128, 172);
+}
+
+p::first-letter{
+    font-size: larger;
+    color: rgb(233, 17, 226);
+}

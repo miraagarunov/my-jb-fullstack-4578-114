@@ -1,0 +1,20 @@
+.centered-text{
+    text-align: center;
+}
+
+
+body{
+    color: white;
+}
+
+
+.centered-border {
+    border-width: 0;
+    padding: 0;
+    margin: auto;
+}
+
+
+.cool-design-border {
+    border-color: black;
+}

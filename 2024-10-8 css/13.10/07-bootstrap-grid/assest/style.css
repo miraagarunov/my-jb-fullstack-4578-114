@@ -1,0 +1,6 @@
+.row > div {
+    height: 50%;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-large;
+}

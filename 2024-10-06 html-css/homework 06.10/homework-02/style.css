@@ -1,0 +1,56 @@
+html, body {
+    direction: rtl;
+}
+
+
+.header-text{
+    text-align: center;
+    color: rgb(155, 39, 39);
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.welcome-text{
+    text-align: center;
+}
+
+.login-table{
+    border: 1px solid black;  
+}
+
+
+
+input[type="text"]{
+    border: 1px solid black;  
+    background-color:Yellow;
+}
+
+
+input[type="password"]{
+    border: 1px solid black;  
+    background-color:Yellow;
+}
+
+
+input[type="submit"]{
+    border: 1px solid black;  
+    background-color: rgb(170, 223, 239);
+}
+
+
+#img-container{
+    text-align: center;
+}
+
+
+img{
+    border-radius: 1px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    margin-top: 200px;
+  }
+
+  #copyrights{
+    text-align: center;
+}

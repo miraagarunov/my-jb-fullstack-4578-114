@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Bepholar;
+    src: url(font/bepholar/Bepholar.otf);
+}
+.container {
+    text-align: center;
+    direction: ltr;
+    border-: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 50px ;
+    color: rgb(249, 224, 246);
+    font-family:Bepholar ;
+    font-size: xx-large;
+    box-shadow: 8px 8px  #d8d3d3;
+       
+}
+div{
+    background: linear-gradient(120deg, #e258ad,#aebaf8);
+}
+

@@ -1,0 +1,17 @@
+html , body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    
+   
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* applies border to the table*/
+table, th, td {
+    border: 1px solid rgb(103, 176, 228);
+}

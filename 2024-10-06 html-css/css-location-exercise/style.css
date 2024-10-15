@@ -1,0 +1,15 @@
+
+h2{
+      color: rgb(142, 56, 70);
+      background-color:rgb(212, 192, 232);
+      margin: 0;
+      padding: 0;
+  }
+  .centered-text {
+    text-align: center;
+  }
+  input [text="search"]
+  {
+    background-color: yellow;
+  }
+  

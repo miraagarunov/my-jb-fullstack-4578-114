@@ -1,0 +1,67 @@
+@font-face {
+    font-family: Bepholar;
+    src: url("/assets/fonts/bepholar/Bepholar.otf");
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: Bepholar;
+    transition: 2s;
+    transform: rotate(-15deg);
+
+}
+
+h1:hover {
+    color: pink;
+    transform: rotate(15deg) scale(2);
+}
+/*@keyframes MyAnima { אפשר לעשות באחוזים או גם ככה
+   from{
+         color: blue;
+         transform: scale(2);
+    }
+
+   to{
+        color: red;
+        transform: scale(0.5);
+    }*/
+
+@keyframes MyAnima {
+    0%{
+         color: blue;
+         transform: scale(2);
+    }
+
+    50%{
+        color:green;
+        transform: scale(3);
+
+    }
+
+    100%{
+        color: red;
+        transform: scale(0.5);
+    }
+}
+
+p{
+    text-align: center;
+    margin-top: 100px;
+    animation: MyAnima 3s;
+}
+
+p:hover{
+    animation: MyAnima 3s infinite;
+
+}
+
+h2{
+    font-size: 16px;
+}
+
+@media (max-width:600px) {
+    h2{
+        font-size: 32px;
+    }
+}

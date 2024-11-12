@@ -1,0 +1,14 @@
+<friends>
+    <friend id="1">
+        <name>mira</name>
+        <age>22</age>
+        <city>petach tiqwa</city>
+        <gender>female</gender>
+    </friend>   
+        <friend id="2">
+        <name>mishel</name>
+        <age>22</age>
+        <city>petach tiqwa</city>
+        <gender>female</gender>
+    </friend>  
+</friends>

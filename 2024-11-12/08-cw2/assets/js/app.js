@@ -1,20 +1,22 @@
-function printMax(n) {
-   for(let i=1; i<n; i++){
-    document.write('* ')
+function printAsterisksLine(n) {
+   for(let i=0; i<n; i++) {
+       document.write('* ')
    }
 }
-function printsquare(m){
-for(let i=0; i<m; i++){
-       printMax(m)
-       document.write('<br>') 
-}
+
+function printSquare(m) {
+   for(let i=0; i<m; i++) {
+       printAsterisksLine(m)
+       document.write('<br>')
+   }
 }
 
-printMax(5)
+printAsterisksLine(5)
 document.write("<hr>")
-printMax(8)
+printAsterisksLine(8)
+document.write("<hr>")
 
-printsquare(5)
+printSquare(5)
 document.write("<hr>")
-printsquare(8)
+printSquare(8)
 document.write("<hr>")

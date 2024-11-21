@@ -1,0 +1,11 @@
+/* עיצוב תיבת הטקסט כאשר יש שגיאה */
+.error {
+    border-color: red;
+}
+
+/* עיצוב הודעת השגיאה */
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: none; /* בהתחלה לא תוצג */
+}

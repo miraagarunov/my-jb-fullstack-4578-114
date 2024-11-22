@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>רשימת צבעים</title>
+    <!-- הוספת קובץ CSS של Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css"></link>
+    <script src="assets/js/app.js"></script>
+</head>
+<body>
+<div class="container mt-5">
+    <h2>הכנס צבעים</h2>
+
+    <form id="colorForm">
+        <div class="form-group">
+            <label for="colorName">שם הצבע</label>
+            <input type="text" class="form-control" id="colorName" name="colorName" required minlength="3" maxlength="20">
+        </div>
+
+        <button type="button" class="btn btn-primary" onclick="addColor()">הוסף צבע</button>
+    </form>
+
+    <h3 class="mt-4">הצבעים שהוזנו:</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>שם הצבע</th>
+                <th>הצבע עצמו</th>
+            </tr>
+        </thead>
+        <tbody id="colorTable">
+            <!-- הטבלה תתמלא כאן -->
+        </tbody>
+    </table>
+
+    <p id="colorCountText">מספר הצבעים בטבלה: 0</p>
+</div>
+
+<!-- הוספת קובץ JavaScript של Bootstrap ושל הקוד שלנו --> 
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ -->
+
+  
+</body>
+</html>

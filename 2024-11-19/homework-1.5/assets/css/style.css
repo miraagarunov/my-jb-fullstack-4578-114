@@ -1,0 +1,10 @@
+.color-cell {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(197, 228, 252);
+    color: rgb(106, 169, 252);
+}
